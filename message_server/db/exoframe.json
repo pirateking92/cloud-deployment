@@ -1,0 +1,10 @@
+{
+  "name": "mattdoyle-message-database",
+  "domain": false,
+  "hostname": "mattdoyle-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@mattdoyle-postgres-password"
+  },
+  "volumes": ["YOURNAME_message_database_volume:/var/lib/postgresql/data"]
+}
